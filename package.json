@@ -16,7 +16,6 @@
     "next": "16.3.2",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "react-tsparticles": "^2.12.2",
     "sweetalert2": "^11.26.25",
     "tsparticles": "^4.3.2"
   },
