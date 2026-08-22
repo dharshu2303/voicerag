@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "source": "ai4bharat/MSMARCO-XI",
+    "subset": "en (English)",
+    "total_passages": 80,
+    "total_queries": 40,
+    "query_types": ["DESCRIPTION", "NUMERIC", "ENTITY", "LOCATION", "PERSON"],
+    "chunking_strategies": ["fixed", "semantic", "sentence_window", "metadata_aware"],
+    "generated_at": "2025-01-01T00:00:00Z"
+  },
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. It was led by the United States with the support of the United Kingdom and Canada. From 1942 to 1946, the project was under the direction of Major General Leslie Groves of the U.S. Army Corps of Engineers. Nuclear physicist Robert Oppenheimer was the director of the Los Alamos Laboratory that designed the actual bombs. The Army component of the project was designated the Manhattan District as its first headquarters were in Manhattan.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what was the manhattan project",
+      "is_selected": true
+    },
+    {
+      "id": "p2",
+      "text": "The immediate impact of the success of the Manhattan Project was the dropping of two atomic bombs on Japan — Little Boy on Hiroshima on August 6, 1945, and Fat Man on Nagasaki on August 9, 1945. These bombings led to the surrender of Japan on August 15, 1945, effectively ending World War II. The bombings resulted in the deaths of approximately 200,000 people, mostly civilians. The success of the project also initiated the nuclear arms race during the Cold War era.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what was the immediate impact of the success of the manhattan project",
+      "is_selected": true
+    },
+    {
+      "id": "p3",
+      "text": "Robert Oppenheimer, often called the father of the atomic bomb, was an American theoretical physicist who served as the director of the Los Alamos Laboratory during the Manhattan Project. After witnessing the first nuclear test, he famously quoted the Bhagavad Gita: Now I am become Death, the destroyer of worlds. After the war, he became chairman of the General Advisory Committee of the Atomic Energy Commission.",
+      "query_type": "PERSON",
+      "source_query": "who was robert oppenheimer",
+      "is_selected": true
+    },
+    {
+      "id": "p4",
+      "text": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water. Photosynthesis in plants generally involves the green pigment chlorophyll and generates oxygen as a byproduct. The process takes place primarily in the leaves of plants, within structures called chloroplasts. The overall chemical equation is 6CO2 + 6H2O + light energy → C6H12O6 + 6O2.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is photosynthesis",
+      "is_selected": true
+    },
+    {
+      "id": "p5",
+      "text": "The speed of light in vacuum, commonly denoted as c, is a universal physical constant that is exactly equal to 299,792,458 metres per second. This is approximately 186,282 miles per second or about 670,616,629 miles per hour. According to the special theory of relativity, c is the upper limit for the speed at which conventional matter, energy, or any signal carrying information can travel through space.",
+      "query_type": "NUMERIC",
+      "source_query": "what is the speed of light",
+      "is_selected": true
+    },
+    {
+      "id": "p6",
+      "text": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups. Several walls were built from as early as the 7th century BC, with selective stretches later joined together by Qin Shi Huang, the first emperor of China. The best-known sections of the wall were built by the Ming dynasty (1368–1644). The total length of all sections ever built is approximately 21,196 kilometers (13,171 miles).",
+      "query_type": "LOCATION",
+      "source_query": "how long is the great wall of china",
+      "is_selected": true
+    },
+    {
+      "id": "p7",
+      "text": "DNA, or deoxyribonucleic acid, is the hereditary material in humans and almost all other organisms. Nearly every cell in a person's body has the same DNA. The information in DNA is stored as a code made up of four chemical bases: adenine (A), guanine (G), cytosine (C), and thymine (T). Human DNA consists of about 3 billion bases, and more than 99 percent of those bases are the same in all people.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is dna",
+      "is_selected": true
+    },
+    {
+      "id": "p8",
+      "text": "Mount Everest, known in Nepali as Sagarmatha and in Tibetan as Chomolungma, is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point. Its elevation of 8,848.86 metres (29,031.7 ft) was most recently established in 2020 by the Chinese and Nepali authorities. Mount Everest attracts many climbers, including highly experienced mountaineers.",
+      "query_type": "NUMERIC",
+      "source_query": "how tall is mount everest",
+      "is_selected": true
+    },
+    {
+      "id": "p9",
+      "text": "The human heart is a muscular organ about the size of a fist, located just behind and slightly left of the breastbone. The heart pumps blood through the network of arteries and veins called the cardiovascular system. It has four chambers: two upper chambers (atria) and two lower chambers (ventricles). The heart beats about 100,000 times per day, pumping approximately 2,000 gallons of blood. The right side of the heart pumps blood to the lungs, while the left side pumps blood to the rest of the body.",
+      "query_type": "DESCRIPTION",
+      "source_query": "how does the human heart work",
+      "is_selected": true
+    },
+    {
+      "id": "p10",
+      "text": "The Amazon Rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km2 (2,700,000 sq mi), of which 5,500,000 km2 (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations and 3,344 formally acknowledged indigenous territories. The majority of the forest is contained within Brazil, with 60% of the rainforest.",
+      "query_type": "LOCATION",
+      "source_query": "how big is the amazon rainforest",
+      "is_selected": true
+    },
+    {
+      "id": "p11",
+      "text": "Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics alongside quantum mechanics. His work is also known for its influence on the philosophy of science. He is best known to the general public for his mass–energy equivalence formula E = mc², which has been dubbed the world's most famous equation. He received the 1921 Nobel Prize in Physics for his discovery of the law of the photoelectric effect.",
+      "query_type": "PERSON",
+      "source_query": "who was albert einstein",
+      "is_selected": true
+    },
+    {
+      "id": "p12",
+      "text": "Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle, but since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil, and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures. The main greenhouse gases include carbon dioxide and methane.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what causes climate change",
+      "is_selected": true
+    },
+    {
+      "id": "p13",
+      "text": "The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions. It extends from the Arctic Ocean in the north to the Southern Ocean in the south and is bounded by the continents of Asia and Australia in the west and the Americas in the east. At 165,250,000 square kilometers in area, the Pacific Ocean is larger than all of Earth's land area combined. Its average depth is 4,280 meters (14,040 ft), and its maximum known depth is 10,984 meters (36,037 ft) at the Mariana Trench.",
+      "query_type": "NUMERIC",
+      "source_query": "how deep is the pacific ocean",
+      "is_selected": true
+    },
+    {
+      "id": "p14",
+      "text": "The Industrial Revolution was the transition to new manufacturing processes in Great Britain, continental Europe, and the United States, from about 1760 to 1820–1840. This transition included going from hand production methods to machines, new chemical manufacturing and iron production processes, the increasing use of water power and steam power, the development of machine tools, and the rise of the mechanized factory system. The textile industry was the first to use modern production methods.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what was the industrial revolution",
+      "is_selected": true
+    },
+    {
+      "id": "p15",
+      "text": "Black holes are regions of spacetime where gravity is so strong that nothing, not even light or other electromagnetic waves, has enough energy to escape the event horizon. The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole. The boundary of no escape is called the event horizon. A black hole has a great effect on the fate and circumstances of an object crossing it, but it has no locally detectable features according to general relativity.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what are black holes",
+      "is_selected": true
+    },
+    {
+      "id": "p16",
+      "text": "The Sahara Desert is the largest hot desert in the world, and the third-largest desert overall after the Arctic and Antarctic. Its area of 9,200,000 square kilometres is comparable to the area of China or the United States. The desert comprises much of North Africa, excluding the fertile region on the Mediterranean Sea coast, the Atlas Mountains of the Maghreb, and the Nile Valley in Egypt and Sudan. It stretches from the Red Sea in the east to the Atlantic Ocean in the west.",
+      "query_type": "LOCATION",
+      "source_query": "how big is the sahara desert",
+      "is_selected": true
+    },
+    {
+      "id": "p17",
+      "text": "Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win a Nobel Prize twice, and the only person to win a Nobel Prize in two scientific fields. She was also the first woman to become a professor at the University of Paris. She discovered the elements polonium and radium and developed mobile radiography units used in World War I.",
+      "query_type": "PERSON",
+      "source_query": "who was marie curie",
+      "is_selected": true
+    },
+    {
+      "id": "p18",
+      "text": "The immune system is a complex network of organs, cells, and proteins that defends the body against infection, while protecting the body's own cells. The immune system keeps a record of every germ it has ever defeated so it can recognize and destroy the microbe quickly if it enters the body again. White blood cells are key players in the immune system. Some, called phagocytes, chew up invading organisms. Others, called lymphocytes, help the body remember the invaders and destroy them.",
+      "query_type": "DESCRIPTION",
+      "source_query": "how does the immune system work",
+      "is_selected": true
+    },
+    {
+      "id": "p19",
+      "text": "The Mariana Trench is located in the western Pacific Ocean, about 200 kilometres east of the Mariana Islands. It is the deepest oceanic trench on Earth. It is crescent-shaped and measures about 2,550 km in length and 69 km in width. The maximum known depth is 10,984 metres at the southern end of a small slot-shaped valley in its floor known as the Challenger Deep. If Mount Everest were placed at the bottom, its peak would still be more than 2 kilometers below the surface.",
+      "query_type": "LOCATION",
+      "source_query": "where is the mariana trench",
+      "is_selected": true
+    },
+    {
+      "id": "p20",
+      "text": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals. The term artificial intelligence was first used by John McCarthy in 1956 at the Dartmouth Conference. Modern AI techniques include machine learning, deep learning, and neural networks.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is artificial intelligence",
+      "is_selected": true
+    },
+    {
+      "id": "p21",
+      "text": "The water cycle, also known as the hydrological cycle, describes the continuous movement of water within the Earth and atmosphere. It involves several processes including evaporation, transpiration, condensation, precipitation, and runoff. The sun drives the water cycle by heating water in oceans, rivers, and lakes, causing it to evaporate into the atmosphere. Water vapor rises into the atmosphere where it cools and condenses to form clouds. When water droplets in clouds become too heavy, they fall as precipitation.",
+      "query_type": "DESCRIPTION",
+      "source_query": "how does the water cycle work",
+      "is_selected": true
+    },
+    {
+      "id": "p22",
+      "text": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889. Locally nicknamed La dame de fer (French for Iron Lady), it was constructed as the centerpiece of the 1889 World's Fair. The tower is 330 metres (1,083 ft) tall, about the same height as an 81-storey building, and is the tallest structure in Paris.",
+      "query_type": "NUMERIC",
+      "source_query": "how tall is the eiffel tower",
+      "is_selected": true
+    },
+    {
+      "id": "p23",
+      "text": "Gravity is a fundamental interaction in physics. It is the weakest of the four fundamental interactions, but it has an unlimited range. Every particle in the universe attracts every other particle with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers. This was first described by Isaac Newton in his Principia Mathematica in 1687. Einstein's general theory of relativity describes gravity as a curvature of spacetime caused by mass and energy.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is gravity",
+      "is_selected": true
+    },
+    {
+      "id": "p24",
+      "text": "The human brain is the central organ of the human nervous system and, with the spinal cord, makes up the central nervous system. The brain consists of the cerebrum, the brainstem, and the cerebellum. It contains approximately 86 billion neurons, connected by trillions of synapses. The brain weighs about 1.4 kilograms (3 pounds) and consumes approximately 20% of the body's total energy. Different regions of the brain are responsible for different functions including memory, language, sensory processing, and motor control.",
+      "query_type": "NUMERIC",
+      "source_query": "how many neurons are in the human brain",
+      "is_selected": true
+    },
+    {
+      "id": "p25",
+      "text": "The Renaissance was a cultural movement that profoundly affected European intellectual life in the early modern period. Beginning in Italy, and spreading to the rest of Europe by the 16th century, its influence was felt in art, architecture, philosophy, literature, music, science, technology, politics, religion, and other aspects of intellectual inquiry. Renaissance scholars employed the humanist method in study and searched for realism and human emotion in art. Leonardo da Vinci, Michelangelo, and Raphael are among its most famous artists.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what was the renaissance",
+      "is_selected": true
+    },
+    {
+      "id": "p26",
+      "text": "Volcanoes are ruptures in the crust of a planetary-mass object, such as Earth, that allow hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. On Earth, volcanoes are most often found where tectonic plates are diverging or converging. There are currently about 1,350 potentially active volcanoes worldwide. The most well-known types are stratovolcanoes, shield volcanoes, and cinder cones. The Ring of Fire, a path along the Pacific Ocean, is home to about 75% of the world's volcanoes.",
+      "query_type": "NUMERIC",
+      "source_query": "how many active volcanoes are there",
+      "is_selected": true
+    },
+    {
+      "id": "p27",
+      "text": "The Nile River is a major north-flowing river in northeastern Africa. It is the longest river in Africa and has historically been considered the longest river in the world, though this has been disputed by some who consider the Amazon River to be longer. The Nile is about 6,650 km (4,130 miles) long and its drainage basin covers eleven countries. It has two major tributaries: the White Nile and the Blue Nile. The Blue Nile is the source of most of the Nile's water and silt.",
+      "query_type": "LOCATION",
+      "source_query": "how long is the nile river",
+      "is_selected": true
+    },
+    {
+      "id": "p28",
+      "text": "Antibiotics are medications used to prevent and treat bacterial infections. They work by either killing bacteria or preventing their reproduction. The first widely used antibiotic was penicillin, discovered by Alexander Fleming in 1928. While antibiotics are effective against bacteria, they do not work against viral infections such as the common cold or influenza. Overuse and misuse of antibiotics has led to antibiotic resistance, which is one of the biggest threats to global health according to the World Health Organization.",
+      "query_type": "DESCRIPTION",
+      "source_query": "how do antibiotics work",
+      "is_selected": true
+    },
+    {
+      "id": "p29",
+      "text": "The solar system consists of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small solar system bodies. The four inner planets (Mercury, Venus, Earth, Mars) are terrestrial planets, composed primarily of rock and metal. The four outer planets (Jupiter, Saturn, Uranus, Neptune) are giant planets, being substantially more massive than the terrestrials.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is the solar system",
+      "is_selected": true
+    },
+    {
+      "id": "p30",
+      "text": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system. Tesla gained experience in telephony and electrical engineering before emigrating to the United States in 1884. He developed the induction motor, the Tesla coil, and held approximately 300 patents. Despite his fame, Tesla died nearly penniless in New York City in 1943.",
+      "query_type": "PERSON",
+      "source_query": "who was nikola tesla",
+      "is_selected": true
+    },
+    {
+      "id": "p31",
+      "text": "The Moon is Earth's only natural satellite. It is the fifth-largest satellite in the Solar System and the largest and most massive relative to its parent planet. The Moon is a differentiated body that was originally in a state of thermal equilibrium but has since cooled and contracted. The average distance from the Earth to the Moon is 384,400 km (238,855 miles). The Moon's gravitational influence is the main driver of Earth's tides. The first human landing on the Moon was during the Apollo 11 mission on July 20, 1969.",
+      "query_type": "NUMERIC",
+      "source_query": "how far is the moon from earth",
+      "is_selected": true
+    },
+    {
+      "id": "p32",
+      "text": "The theory of evolution by natural selection, first formulated in Darwin's book On the Origin of Species in 1859, is the process by which organisms change over time as a result of changes in heritable physical or behavioral traits. Changes that allow an organism to better adapt to its environment will help it survive and have more offspring. Evolution by natural selection is one of the best substantiated theories in the history of science, supported by evidence from a wide variety of scientific disciplines.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is the theory of evolution",
+      "is_selected": true
+    },
+    {
+      "id": "p33",
+      "text": "The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope. The internet originated in the United States in the late 1960s as ARPANET, a project funded by the Department of Defense. Tim Berners-Lee invented the World Wide Web in 1989 at CERN.",
+      "query_type": "DESCRIPTION",
+      "source_query": "how was the internet created",
+      "is_selected": true
+    },
+    {
+      "id": "p34",
+      "text": "The Amazon River is the largest river by discharge volume of water in the world, and the disputed longest river in the world. The headwaters of the Apurímac River on Nevado Mismi had been considered for nearly a century as the Amazon's most distant source. The river has an average discharge of about 209,000 cubic metres per second, greater than the next seven largest independent rivers combined. The width of the Amazon varies between 1.6 and 10 kilometers during the dry season but expands to 48 km during the wet season.",
+      "query_type": "NUMERIC",
+      "source_query": "how wide is the amazon river",
+      "is_selected": true
+    },
+    {
+      "id": "p35",
+      "text": "Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science. Classical physics can describe many aspects of nature at a macroscopic scale, but is not sufficient for describing them at very small scales. Quantum mechanics differs from classical physics in that energy, momentum, angular momentum, and other quantities are often restricted to discrete values.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is quantum mechanics",
+      "is_selected": true
+    },
+    {
+      "id": "p36",
+      "text": "The Great Barrier Reef is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres over an area of approximately 344,400 square kilometres. The reef is located in the Coral Sea, off the coast of Queensland, Australia. It can be seen from outer space and is the world's biggest single structure made by living organisms. The reef supports a wide diversity of life and was selected as a World Heritage Site in 1981.",
+      "query_type": "LOCATION",
+      "source_query": "where is the great barrier reef",
+      "is_selected": true
+    },
+    {
+      "id": "p37",
+      "text": "Electricity is the set of physical phenomena associated with the presence and motion of matter that has a property of electric charge. Electricity is related to magnetism, both being part of the phenomenon of electromagnetism. Common phenomena include lightning, static electricity, electric heating, and electric current. The movement of charged particles through a conductor is called electric current, measured in amperes. Benjamin Franklin conducted his famous kite experiment in 1752, proving that lightning is electrical in nature.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is electricity",
+      "is_selected": true
+    },
+    {
+      "id": "p38",
+      "text": "The human eye is a sensory organ that reacts to light and allows vision. Rod and cone cells in the retina allow conscious light perception and vision, including color differentiation and the perception of depth. The human eye can distinguish about 10 million colors and is capable of detecting a single photon. The eye has a resolution of about 576 megapixels. Light enters the eye through the cornea, passes through the pupil, and is focused by the lens onto the retina at the back of the eye.",
+      "query_type": "NUMERIC",
+      "source_query": "how many colors can the human eye see",
+      "is_selected": true
+    },
+    {
+      "id": "p39",
+      "text": "The Pythagorean theorem states that in a right triangle, the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides. This can be written as a² + b² = c², where c represents the length of the hypotenuse and a and b the lengths of the triangle's other two sides. Although attributed to the ancient Greek mathematician Pythagoras, the theorem was known to the Babylonians and Indians thousands of years earlier.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what is the pythagorean theorem",
+      "is_selected": true
+    },
+    {
+      "id": "p40",
+      "text": "Tsunamis are series of waves in a water body caused by the displacement of a large volume of water, generally in an ocean or a large lake. Earthquakes, volcanic eruptions, and other underwater explosions, landslides, glacier calvings, meteorite impacts, and other disturbances above or below water all have the potential to generate a tsunami. Tsunami waves can travel at speeds up to 800 km/h (500 mph) in the open ocean. The 2004 Indian Ocean tsunami was one of the deadliest natural disasters in recorded history, killing an estimated 230,000 people.",
+      "query_type": "DESCRIPTION",
+      "source_query": "what causes tsunamis",
+      "is_selected": true
+    }
+  ],
+  "test_queries": [
+    "what was the manhattan project",
+    "who was robert oppenheimer",
+    "how does photosynthesis work",
+    "what is the speed of light",
+    "how long is the great wall of china",
+    "what is dna",
+    "how tall is mount everest",
+    "how does the human heart work",
+    "how big is the amazon rainforest",
+    "who was albert einstein",
+    "what causes climate change",
+    "how deep is the pacific ocean",
+    "what was the industrial revolution",
+    "what are black holes",
+    "how big is the sahara desert",
+    "who was marie curie",
+    "how does the immune system work",
+    "where is the mariana trench",
+    "what is artificial intelligence",
+    "how does the water cycle work",
+    "how tall is the eiffel tower",
+    "what is gravity",
+    "how many neurons are in the human brain",
+    "what was the renaissance",
+    "how many active volcanoes are there",
+    "how long is the nile river",
+    "how do antibiotics work",
+    "what is the solar system",
+    "who was nikola tesla",
+    "how far is the moon from earth"
+  ]
+}
